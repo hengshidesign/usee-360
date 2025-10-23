@@ -153,7 +153,7 @@ export const httpDelete = async (url, reqBody) => {
 export const generateHeaders = (token = "", isMultipart = false) => {
   let requestHeaders = {};
   let loginToken = token ? token : getLoginToken();
-  const apiCode = process.env.INTERNAL_API_CODE;
+  const apiCode = process.env.REACT_APP_INTERNAL_API_CODE;
 
   if (loginToken) {
     requestHeaders['Authorization'] = `Bearer ${loginToken}`;
