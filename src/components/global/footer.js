@@ -133,7 +133,7 @@ class Footer_v1 extends Component {
                           <i className="fa-solid fa-location-dot"></i>
                         </div>
                         <div className="footer-address-info">
-                          <p>Business Bay, Dubai, UAE</p>
+                          <p>Dubai, UAE</p>
                         </div>
                       </li>
                     </ul>
