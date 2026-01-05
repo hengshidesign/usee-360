@@ -8,9 +8,9 @@ class ContactInfo extends Component {
     return (
       <div className="ltn__contact-address-area mb-90">
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-center">
           <Contact />
-            <div className="col-lg-6">
+            <div className="col-lg-6 text-center">
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
                 <div className="ltn__contact-address-icon">
                   <img
