@@ -94,6 +94,8 @@ class Footer_v1 extends Component {
                   <h4 className="footer-title">Contact Information</h4>
                   <div className="footer-address">
                     <ul>
+                      {/*
+
                       <li>
                         <div className="footer-address-icon">
                           <i className="icon-call" />
@@ -113,6 +115,7 @@ class Footer_v1 extends Component {
                           <a href="tel:+9710501813399">+971 (0) 50 181 3399</a>
                         </div>
                       </li>
+                      */}
                       <li>
                         <div className="footer-address-icon">
                           <i className="icon-mail" />
